@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IGDb</title>
+<style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');</style>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/lightslider.css">
+<!--js link------>
+<script src="js/JQuery3.3.1.js"></script>
+<script src="js/lightslider.js"></script>
+<!--fav-icon------------------------------->
+<link rel="shortcut icon" href="images/IGDB2.ico">
+<!--using FontAwesome----->
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!--navigation--------------------------->
+<nav>
+    <!--logo---------------------->
+    <a href="#" class="logo">
+        <img src="images/IGDB.ico"/>
+    </a>
+    <!--menu-btn----------->
+    <input type="checkbox" class="menu-btn" id="menu-btn"/>
+    <label class="menu-icon" for="menu-btn"> 
+    <span class="nav-icon"></span>
+</label>
+    <!--menu------------------>
+    <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Games</a></li>
+        <li><a href="#">Wish List</a></li>
+        <li><a href="#">Favorites</a></li>
+    </ul>
+    <!--search---------------->
+    <div class="search">
+        <input type="text" placeholder="Search"/>
+    <!--search-icon------------>
+    <i class="fas fa-search"></i>
+    </div>
+</nav>
+<section id="main">
+    <!--news---------------->
+    <!--heading------>
+    <h1 class="news-heading">News</h1>
+
+    <ul id="autoWidth" class="cs-hidden">
+        <!--box1------------>
+        <li class="item-a">
+            <!--news-box---------->
+            <div class="news-box">
+                <img src="images/1.jpg">
+            </div>
+        </li>
+        <!--box2------------>
+        <li class="item-a">
+            <!--news-box---------->
+            <div class="news-box">
+                <img src="images/2.jpg"/>
+            </div>
+        </li>
+        <!--box3------------>
+        <li class="item-a">
+            <!--news-box---------->
+            <div class="news-box">
+                <img src="images/3.jpg"/>
+            </div>
+        </li>
+        <!--box4------------>
+        <li class="item-a">
+            <!--news-box---------->
+            <div class="news-box">
+                <img src="images/4.jpg"/>
+            </div>
+        </li>
+        <!--box5------------>
+        <li class="item-a">
+            <!--news-box---------->
+            <div class="news-box">
+                <img src="images/5.jpg"/>
+            </div>
+        </li>
+       
+       
+       
+      </ul>
+</section>
+<!--games------------->
+<section id="games">
+    <h2 class="games-heading">Games</h2>
+    <!--slider------->
+    <ul id="autoWidth2" class="cs-hidden">
+        <!--slide-box1-->
+        <li class="iteam-a">
+            <div class="games-box">
+                <!--img------->
+                <div class="games-b-img">
+                    <img src="images/fortnite.jpg">
+            </div>
+                <!--text------------->
+                <div class="games-b-text">
+                <strong>Fortnite</strong>
+                <p>Battle Royale</p>
+            </div>
+        </li>
+        <!--slide-box2-->
+        <li class="iteam-b">
+            <div class="games-box">
+                <!--img------->
+                <div class="games-b-img">
+                    <img src="images/valorant.jpg">
+                </div>
+                <!--text------------->
+                <div class="games-b-text">
+                <strong>Valorant</strong>
+                <p>FPS</p>
+            </div>
+        </li>
+        <!--slide-box3-->
+        <li class="iteam-c">
+            <div class="games-box">
+                <!--img------->
+                <div class="games-b-img">
+                    <img src="images/pubg.jpg">
+                </div>
+                <!--text------------->
+                <div class="games-b-text">
+                <strong>PUBG : Battlegrounds</strong>
+                <p>Battle Royale</p>
+            </div>
+        </li>
+        <!--slide-box4-->
+        <li class="iteam-d">
+            <div class="games-box">
+                <!--img------->
+                <div class="games-b-img">
+                    <img src="images/gta5.jpg">
+                </div>
+                <!--text------------->
+                <div class="games-b-text">
+                <strong>Grand Theft Auto V</strong>
+                <p>	Action-Adventure</p>
+            </div>
+        </li>
+        <!--slide-box5-->
+        <li class="iteam-e">
+            <div class="games-box">
+                <!--img------->
+                <div class="games-b-img">
+                    <img src="images/forza4.jpg">
+                </div>
+                <!--text------------->
+                <div class="games-b-text">
+                <strong>Forza Horizon 4</strong>
+                <p>Racing</p>
+            </div>
+        </li>
+        <!--slide-box6-->
+        <li class="iteam-f">
+            <div class="games-box">
+                <!--img------->
+                <div class="games-b-img">
+                    <img src="images/csgo.jpg">
+                </div>
+                <!--text------------->
+                <div class="games-b-text">
+                <strong>CS:GO</strong>
+                <p>FPS</p>
+                
+            </div>
+        </li>
+        <!--slide-box7-->
+        <li class="iteam-g">
+            <div class="games-box">
+                <!--img------->
+                <div class="games-b-img">
+                    <img src="images/battlefield1.jpg">
+                </div>
+                <!--text------------->
+                <div class="games-b-text">
+                <strong>Battlefield 1</strong>
+                <p>FPS</p>
+                
+            </div>
+        </li>
+        <!--slide-box8-->
+        <li class="iteam-h">
+            <div class="games-box">
+                <!--img------->
+                <div class="games-b-img">
+                    <img src="images/battlefield4.jpg">
+                </div>
+                <!--text------------->
+                <div class="games-b-text">
+                <strong>Battlefield 4</strong>
+                <p>FPS</p>
+            </div>
+        </li>
+        <!--slide-box9-->
+        <li class="iteam-j">
+            <div class="games-box">
+                <!--img------->
+                <div class="games-b-img">
+                    <img src="images/battlefieldV.jpg">
+                </div>
+                <!--text------------->
+                <div class="games-b-text">
+                <strong>Battlefield V</strong>
+                <p>FPS-Battle Royale</p>
+            </div>
+        </li>
+        <!--slide-box10-->
+        <li class="iteam-k">
+            <div class="games-box">
+                <!--img------->
+                <div class="games-b-img">
+                    <img src="images/amongus.jpg">
+                </div>
+                <!--text------------->
+                <div class="games-b-text">
+                <strong>Among Us</strong>
+                <p>Casual</p>
+            </div>
+        </li>
+        <!--slide-box11-->
+        <li class="iteam-l">
+            <div class="games-box">
+                <!--img------->
+                <div class="games-b-img">
+                    <img src="images/fallguys.jpg">
+                </div>
+                <!--text------------->
+                <div class="games-b-text">
+                <strong>Fall Guys</strong>
+                <p>Battle Royale</p>
+            </div>
+        </li>
+        <!--slide-box12-->
+        <li class="iteam-m">
+            <div class="games-box">
+                <!--img------->
+                <div class="games-b-img">
+                    <img src="images/left4dead2.jpg">
+                </div>
+                <!--text------------->
+                <div class="games-b-text">
+                <strong>Left 4 Dead 2</strong>
+                <p>FPS-Survival Horror</p>
+            </div>
+        </li>
+        <!--slide-box13-->
+        <li class="iteam-n">
+            <div class="games-box">
+                <!--img------->
+                <div class="games-b-img">
+                    <img src="images/apexlegends.jpg">
+                </div>
+                <!--text------------->
+                <div class="games-b-text">
+                <strong>Apex Legends</strong>
+                <p>FPS-Battle Royale</p>
+            </div>
+        </li>
+        <!--slide-box14-->
+        <li class="iteam-o">
+            <div class="games-box">
+                <!--img------->
+                <div class="games-b-img">
+                    <img src="images/ets2.jpg">
+                </div>
+                <!--text------------->
+                <div class="games-b-text">
+                <strong>Euro Truck Simulator 2</strong>
+                <p>Vehicle Simulation</p>
+            </div>
+        </li>
+        <!--slide-box15-->
+        <li class="iteam-p">
+            <div class="games-box">
+                <!--img------->
+                <div class="games-b-img">
+                    <img src="images/pes2020.jpg">
+                </div>
+                <!--text------------->
+                <div class="games-b-text">
+                <strong>eFootball PES 2020</strong>
+                <p>Sports</p>
+            </div>
+        </li>
+        <!--slide-box16-->
+        <li class="iteam-p">
+            <div class="games-box">
+                <!--img------->
+                <div class="games-b-img">
+                    <img src="images/pes2021.jpg">
+                </div>
+                <!--text------------->
+                <div class="games-b-text">
+                <strong>eFootball PES 2021</strong>
+                <p>Sports</p>
+            </div>
+        </li>
+        <!--slide-box17-->
+        <li class="iteam-p">
+            <div class="games-box">
+                <!--img------->
+                <div class="games-b-img">
+                    <img src="images/pes2022.jpg">
+                </div>
+                <!--text------------->
+                <div class="games-b-text">
+                <strong>eFootball 2022</strong>
+                <p>Sports</p>
+            </div>
+        </li>
+         <!--slide-box18-->
+         <li class="iteam-p">
+            <div class="games-box">
+                <!--img------->
+                <div class="games-b-img">
+                    <img src="images/nfs2mostwanted.png">
+                </div>
+                <!--text------------->
+                <div class="games-b-text">
+                <strong>NFS Most Wanted </strong>
+                <p>Racing</p>
+            </div>
+        </li>
+        <!--slide-box19-->
+        <li class="iteam-p">
+            <div class="games-box">
+                <!--img------->
+                <div class="games-b-img">
+                    <img src="images/nfshotpursuit.jpg">
+                </div>
+                <!--text------------->
+                <div class="games-b-text">
+                <strong>Hot Pursuit Remastered </strong>
+                <p>Racing</p>
+            </div>
+        </li>
+        <!--slide-box20-->
+        <li class="iteam-p">
+            <div class="games-box">
+                <!--img------->
+                <div class="games-b-img">
+                    <img src="images/asettacorsa.jpg">
+                </div>
+                <!--text------------->
+                <div class="games-b-text">
+                <strong>Asetta Corsa</strong>
+                <p>Racing</p>
+            </div>
+        </li>
+    </ul>
+</section>
+<!--wishlist--------------->
+<div class="wishlist-heading">
+    <h2>Wish List</h2>
+</div>
+<section id="wish-list">
+    <!--box1------------------>
+    <div class="wishlist-box">
+        <!--img1----------->
+        <div class="wishlist-img">
+            <img src="images/flight.jpg">
+        </div>
+     <!--text1-------->
+     <div class="wishlist-text">
+         <strong>Flight Simulator</strong>
+         <p>Simulation</p> 
+        </div>
+    </div>
+      <!--box2------------------>
+      <div class="wishlist-box">
+        <!--img2----------->
+        <div class="wishlist-img">
+            <img src="images/b4b.jpg">
+        </div>
+     <!--text2-------->
+     <div class="wishlist-text">
+        <strong>Back 4 Blood</strong>
+        <p>FPS-Survival Horror</p> 
+       </div>
+    </div>
+    <!--box3------------------>
+    <div class="wishlist-box">
+        <!--img3----------->
+        <div class="wishlist-img">
+            <img src="images/pummel.jpg">
+        </div>
+     <!--text3-------->
+     <div class="wishlist-text">
+        <strong>Pummel Party</strong>
+        <p>Action</p> 
+       </div>
+    </div>
+    <!--box4------------------>
+    <div class="wishlist-box">
+        <!--img4----------->
+        <div class="wishlist-img">
+            <img src="images/planetzoo.jpg">
+        </div>
+     <!--text4-------->
+     <div class="wishlist-text">
+        <strong>Planet Zoo</strong>
+        <p>Simulation</p> 
+       </div>
+    </div>
+    <!--box5------------------>
+    <div class="wishlist-box">
+        <!--img5----------->
+        <div class="wishlist-img">
+            <img src="images/rainbow.jpg">
+        </div>
+     <!--text5-------->
+     <div class="wishlist-text">
+        <strong>Rainbow Six: Siege</strong>
+        <p>FPS</p> 
+       </div>
+    </div>
+    <!--box6------------------>
+    <div class="wishlist-box">
+        <!--img6----------->
+        <div class="wishlist-img">
+            <img src="images/minecraft.png">
+        </div>
+     <!--text6-------->
+     <div class="wishlist-text">
+        <strong>Minecraft</strong>
+        <p>Survival</p> 
+       </div>
+    </div>
+    <!--box7------------------>
+    <div class="wishlist-box">
+        <!--img7----------->
+        <div class="wishlist-img">
+            <img src="images/forza5.jpg">
+        </div>
+     <!--text7-------->
+     <div class="wishlist-text">
+        <strong>Forza Horizon 5</strong>
+        <p>Racing</p> 
+       </div>
+    </div>
+    <!--box8------------------>
+    <div class="wishlist-box">
+        <!--img8----------->
+        <div class="wishlist-img">
+            <img src="images/readyornot.jpg">
+        </div>
+     <!--text8-------->
+     <div class="wishlist-text">
+        <strong>Ready or Not</strong>
+        <p>FPS-Tactical Shooter</p> 
+       </div>
+    </div>
+    </div>
+    <!--box9------------------>
+    <div class="wishlist-box">
+        <!--img9----------->
+        <div class="wishlist-img">
+            <img src="images/rust.jpg">
+        </div>
+     <!--text9-------->
+     <div class="wishlist-text">
+        <strong>Rust</strong>
+        <p>Survival</p> 
+       </div>
+    </div>
+      <!--box10------------------>
+      <div class="wishlist-box">
+        <!--img10----------->
+        <div class="wishlist-img">
+            <img src="images/rdr2.jpg">
+        </div>
+     <!--text10-------->
+     <div class="wishlist-text">
+        <strong>Red Dead Redemption 2</strong>
+        <p>Action-Adventure</p> 
+       </div>
+    </div>
+     <!--box11------------------>
+     <div class="wishlist-box">
+        <!--img11----------->
+        <div class="wishlist-img">
+            <img src="images/gtatrilogy.jpg">
+        </div>
+     <!--text11-------->
+     <div class="wishlist-text">
+        <strong>GTA : The Trilogy <strong>
+        <p>Action-Adventure</p> 
+       </div>
+    </div>
+    </div>
+    
+    
+    
+</section>
+<!--btns------------>
+<div class="btns">
+    <a href="#">Previous</a>
+    <a href="#">Next</a>
+</div>
+<!--footer---------->
+<footer>
+<p>&#169; waboose all right reserved.</p>
+
+</footer>
+<!--slider-script------->
+<script>
+      $(document).ready(function() {
+    $('#autoWidth,#autoWidth2').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth,#autoWidth2').removeClass('cS-hidden');
+        } 
+    });  
+  });
+</script>
+
+</body>
+</html>
